@@ -9,7 +9,7 @@ int index_=0;
          maxval=arr[i]; 
          index_=i;
     }
-    arr[index]=arr[n];
+    arr[index_]=arr[n];
     arr[n]=maxval;
 return  ;           
 }
